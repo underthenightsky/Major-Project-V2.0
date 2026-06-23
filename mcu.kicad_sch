@@ -1,0 +1,400 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a05656f2-56dd-4122-820d-a34d3928231b")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 177.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498839d5-005e-4d16-aa28-29135365209f")
+	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237191fe-ff70-44f1-a903-d4c67b799dec")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef05acf-b7a3-493b-ba2d-8dc43bd54185")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e43df61-ba70-4cd8-a0fd-f8c6337e8f74")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f232614-3141-44c2-8c2d-60d99cecdb6b")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c23531-0018-487c-a6ba-dc320dbd53ba")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fc3db3-610a-4aa6-964c-64418b5fc29c")
+	)
+	(wire
+		(pts
+			(xy 190.5 45.72) (xy 207.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a559eb-2b02-4f96-94bc-5f4a31905d84")
+	)
+	(sheet
+		(at 87.63 36.83)
+		(size 49.53 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2be37222-3199-4eea-9ebc-35413e600cef")
+		(property "Sheetname" "instrumentation_amplifier"
+			(at 87.63 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "instrumentation_amplifier.kicad_sch"
+			(at 87.63 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" output
+			(at 137.16 45.72 0)
+			(uuid "25c1e183-9581-489a-8f47-b194ffb2dc29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 87.63 44.45 180)
+			(uuid "84e88545-f6ac-4410-9377-852c0dff771d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 43.18)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "71f9a2b8-9ea7-4177-ab35-1f0a619c76d5")
+		(property "Sheetname" "DC_Bias"
+			(at 177.8 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC_Bias.kicad_sch"
+			(at 177.8 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 190.5 45.72 0)
+			(uuid "4d6820c9-9d17-40d3-a79f-37a4ab7a50fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 177.8 45.72 180)
+			(uuid "5fda1828-9ad0-4757-82e0-37b921f12a44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 43.18)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a76ff6f-6805-4348-9ded-bfb68948d758")
+		(property "Sheetname" "signal_conditioning"
+			(at 207.01 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_conditioning.kicad_sch"
+			(at 207.01 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Out" output
+			(at 207.01 45.72 180)
+			(uuid "2185d055-1096-47b0-a955-79e2e50c0859")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 36.83)
+		(size 40.64 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7e909fd8-f3c4-41fd-9605-74d0338eac58")
+		(property "Sheetname" "output clamp and ADC Interface"
+			(at 26.67 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output_clamp_and_ADC_Interface.kicad_sch"
+			(at 26.67 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 67.31 46.99 0)
+			(uuid "e761bc79-6e82-4f33-a3d1-3e28c1248eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 43.18)
+		(size 17.78 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9d41d52-a750-4c10-a354-fe076c41d7d7")
+		(property "Sheetname" "anti_aliasing"
+			(at 149.86 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "anti_aliasing.kicad_sch"
+			(at 149.86 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 167.64 45.72 0)
+			(uuid "22657120-1867-45e2-95e4-e383ef0e1f78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 149.86 45.72 180)
+			(uuid "740fe96e-beff-41b1-be5a-e1fa29810085")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
