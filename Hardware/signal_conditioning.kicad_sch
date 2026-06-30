@@ -1438,6 +1438,12 @@
 		(uuid "25b4cbc6-ff14-4ceb-ad15-15a6fae60c46")
 	)
 	(junction
+		(at 33.02 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "275ed7b2-7ee6-4e94-95cc-3303831ab93b")
+	)
+	(junction
 		(at 93.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1477,6 +1483,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 82.55) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35efb477-6058-4200-93df-3671142b00a2")
+	)
+	(wire
+		(pts
 			(xy 76.2 44.45) (xy 76.2 53.34)
 		)
 		(stroke
@@ -1507,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 63.5) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3bb1a2-c282-4f08-ae5c-3a5d61a70e89")
+	)
+	(wire
+		(pts
 			(xy 78.74 53.34) (xy 76.2 53.34)
 		)
 		(stroke
@@ -1524,16 +1550,6 @@
 			(type default)
 		)
 		(uuid "695acbb7-c37e-48f7-879e-e7bb8f044f74")
-	)
-	(wire
-		(pts
-			(xy 34.29 63.5) (xy 34.29 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69be27c9-0106-446f-a97f-93d9289c210d")
 	)
 	(wire
 		(pts
@@ -1605,6 +1621,26 @@
 		)
 		(uuid "d1b8d5ec-6e5f-4ef9-a5e5-3f003ddd2abc")
 	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 33.02 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0876200-d363-491f-8ce9-09b1d40b30a9")
+	)
+	(wire
+		(pts
+			(xy 33.02 92.71) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f75a92-7893-41e2-b365-eb8f6090be01")
+	)
 	(hierarchical_label "Out"
 		(shape output)
 		(at 76.2 44.45 0)
@@ -1672,6 +1708,50 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "spice\\BAT54S.spice.txt"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "DI_BAT54S"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1862,7 +1942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 67.31 0)
+		(at 33.02 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1873,7 +1953,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f787fd3-d0c6-4235-8f7a-33b24c80aad1")
 		(property "Reference" "#PWR07"
-			(at 34.29 73.66 0)
+			(at 33.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,7 +1964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 72.39 0)
+			(at 33.02 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1894,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 67.31 0)
+			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 67.31 0)
+			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1916,7 +1996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 67.31 0)
+			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,6 +2092,133 @@
 			(project "mcu"
 				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7a76ff6f-6805-4348-9ded-bfb68948d758"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 33.02 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817a76ed-082d-491c-849d-7a6f8d66da63")
+		(property "Reference" "V2"
+			(at 36.83 84.9601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 36.83 87.5001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "dc=0 ampl=0.2 f=25000 td=0 theta=0 phase=0 ac=1"
+			(at 36.83 90.0401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "7eddc961-3112-487b-90a5-35b3146d4db3")
+		)
+		(pin "1"
+			(uuid "08ea9f8e-21b9-44eb-af06-dbafc199623e")
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7a76ff6f-6805-4348-9ded-bfb68948d758"
+					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2386,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2250,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
+		(property "Sim.Params" "dc=1.65 ampl=1 f=60 td=0 theta=0 phase=0 ac=1 ph=0 portnum=0 z0=0.1"
 			(at 38.1 60.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,6 +2561,50 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, single secondary"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "spice/CT_1_1000.txt"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "CT_1_1000"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
 			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)

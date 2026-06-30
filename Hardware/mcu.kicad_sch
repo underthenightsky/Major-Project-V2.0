@@ -81,6 +81,41 @@
 		)
 		(uuid "f0a559eb-2b02-4f96-94bc-5f4a31905d84")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 48.26 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a67c7e0b-6fd4-4200-b3c0-7e3a9189095e")
+		(property "Net Class" ".tran 0 100m"
+			(at 48.9585 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 119.38 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 87.63 36.83)
 		(size 49.53 17.78)

@@ -1,0 +1,26 @@
+* Current Transformer (CT) SPICE Subcircuit Model
+* Target Sensor: YHDC SCT-013-000 (1:2000 Turns Ratio)
+*
+* Pin Connections:
+* Pin 1: Primary Input (Line)
+* Pin 2: Primary Output (Load)
+* Pin 3: Secondary Output (+)
+* Pin 4: Secondary Output (-)
+*
+.SUBCKT CT_1_1000 1 2 3 4
+
+* Primary Inductance (1 microhenry)
+L_primary 1 2 1u
+
+* Secondary Inductance (Calculated from 1:2000 turns ratio)
+* L_secondary = L_primary * (N_secondary / N_primary)^2
+* L_secondary = 1uH * (2000)^2 = 4 Henries
+L_secondary 3 3_int 4
+
+* Internal Secondary DC Coil Resistance (Typical for SCT-013 is ~100 Ohms)
+R_coil 3_int 4 100
+
+* Core Coupling Coefficient (Near ideal transformer coupling)
+K_coupling L_primary L_secondary 0.9999
+
+.ENDS CT_1_1000
